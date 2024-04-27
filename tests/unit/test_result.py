@@ -75,17 +75,17 @@ def sqlite_existing_workspace_with_partial_results(sqlite_existing_workspace: wo
             result.ResultStatePolicy.DELETE_BEFORE_WRITE,
             [
                 workspace.File(digest="ed801e4317631f7e", path="results/dummy-result-3.json", algorithm="xxh64"),
-                workspace.File(digest="9838099ec6ec3d2f", path="results/dummy-result-4.json", algorithm="xxh64"),
+                workspace.File(digest="58f05c2a3d05c26e", path="results/dummy-result-4.json", algorithm="xxh64"),
             ],
             2,
         ),
         (
             result.ResultStatePolicy.KEEP,
             [
-                workspace.File(digest="15a391c356b028bd", path="results/dummy-result-1.json", algorithm="xxh64"),
-                workspace.File(digest="773ff3e88c39e9db", path="results/dummy-result-2.json", algorithm="xxh64"),
+                workspace.File(digest="1f8bd6de9f994dc3", path="results/dummy-result-1.json", algorithm="xxh64"),
+                workspace.File(digest="9d48c3f2ec696d0a", path="results/dummy-result-2.json", algorithm="xxh64"),
                 workspace.File(digest="ed801e4317631f7e", path="results/dummy-result-3.json", algorithm="xxh64"),
-                workspace.File(digest="9838099ec6ec3d2f", path="results/dummy-result-4.json", algorithm="xxh64"),
+                workspace.File(digest="58f05c2a3d05c26e", path="results/dummy-result-4.json", algorithm="xxh64"),
             ],
             4,
         ),
