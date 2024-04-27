@@ -774,7 +774,7 @@ def assert_dummy_workspace_state(ws):
         store=result.StoreStrategy.FLAT_FILE.value,
         provider="dummy",
         urls=["http://localhost:8000/dummy-input-1.json"],
-        listing=workspace.File(digest="1e119ae45b38b28f", algorithm="xxh64", path="checksums"),
+        listing=workspace.File(digest="bfce1d679af3eb19", algorithm="xxh64", path="checksums"),
         timestamp=None,
         schema=schema.ProviderStateSchema(),
     )
